@@ -4,8 +4,8 @@ encrypt password with openssl
 use:
 ./encrypt.sh
 
-Script asks for usernmae and password:
-- User name is stored in a variable
+Script asks for username and password:
+- User name is stored in a variable.
 - Password is encrypted into a local file ---> encpass.txt
 
 ./decrypt.sh
