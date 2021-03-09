@@ -1,4 +1,7 @@
 # test_creds
+encrypt password with openssl
+
+use:
 ./encrypt.sh
 
 Script asks for usernmae and password:
@@ -6,5 +9,6 @@ Script asks for usernmae and password:
 - Password is encrypted into a local file ---> encpass.txt
 
 ./decrypt.sh
+
 use it to decrypt the file into a vairable ${pass}
 
